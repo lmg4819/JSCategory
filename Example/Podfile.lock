@@ -1,18 +1,73 @@
 PODS:
-  - JSCategory/UIKit/UIDevice (0.3.0)
-  - JSCategory/UIKit/UIScreen (0.3.0):
+  - JSCategory (0.5.0):
+    - JSCategory/Foundation (= 0.5.0)
+    - JSCategory/QuartzCore (= 0.5.0)
+    - JSCategory/UIKit (= 0.5.0)
+  - JSCategory/Foundation (0.5.0):
+    - JSCategory/Foundation/NSArray (= 0.5.0)
+    - JSCategory/Foundation/NSData (= 0.5.0)
+    - JSCategory/Foundation/NSDictionary (= 0.5.0)
+    - JSCategory/Foundation/NSFileManager (= 0.5.0)
+    - JSCategory/Foundation/NSKeyedUnrchiver (= 0.5.0)
+    - JSCategory/Foundation/NSNumber (= 0.5.0)
+    - JSCategory/Foundation/NSObject (= 0.5.0)
+    - JSCategory/Foundation/NSString (= 0.5.0)
+    - JSCategory/Foundation/NSThread (= 0.5.0)
+    - JSCategory/Foundation/NSTimer (= 0.5.0)
+  - JSCategory/Foundation/NSArray (0.5.0)
+  - JSCategory/Foundation/NSData (0.5.0)
+  - JSCategory/Foundation/NSDictionary (0.5.0)
+  - JSCategory/Foundation/NSFileManager (0.5.0)
+  - JSCategory/Foundation/NSKeyedUnrchiver (0.5.0)
+  - JSCategory/Foundation/NSNumber (0.5.0)
+  - JSCategory/Foundation/NSObject (0.5.0)
+  - JSCategory/Foundation/NSString (0.5.0):
+    - JSCategory/Foundation/NSData
+    - JSCategory/Foundation/NSNumber
+  - JSCategory/Foundation/NSThread (0.5.0)
+  - JSCategory/Foundation/NSTimer (0.5.0)
+  - JSCategory/QuartzCore (0.5.0):
+    - JSCategory/QuartzCore/CALayer (= 0.5.0)
+  - JSCategory/QuartzCore/CALayer (0.5.0)
+  - JSCategory/UIKit (0.5.0):
+    - JSCategory/UIKit/UIApplication (= 0.5.0)
+    - JSCategory/UIKit/UIBarButtonItem (= 0.5.0)
+    - JSCategory/UIKit/UIColor (= 0.5.0)
+    - JSCategory/UIKit/UIDevice (= 0.5.0)
+    - JSCategory/UIKit/UIImage (= 0.5.0)
+    - JSCategory/UIKit/UILabel (= 0.5.0)
+    - JSCategory/UIKit/UIScreen (= 0.5.0)
+    - JSCategory/UIKit/UIScrollView (= 0.5.0)
+    - JSCategory/UIKit/UITableView (= 0.5.0)
+    - JSCategory/UIKit/UITextField (= 0.5.0)
+    - JSCategory/UIKit/UITextView (= 0.5.0)
+    - JSCategory/UIKit/UIView (= 0.5.0)
+    - JSCategory/UIKit/UIWindow (= 0.5.0)
+  - JSCategory/UIKit/UIApplication (0.5.0)
+  - JSCategory/UIKit/UIBarButtonItem (0.5.0)
+  - JSCategory/UIKit/UIColor (0.5.0)
+  - JSCategory/UIKit/UIDevice (0.5.0)
+  - JSCategory/UIKit/UIImage (0.5.0)
+  - JSCategory/UIKit/UILabel (0.5.0)
+  - JSCategory/UIKit/UIScreen (0.5.0):
     - JSCategory/UIKit/UIDevice
+  - JSCategory/UIKit/UIScrollView (0.5.0)
+  - JSCategory/UIKit/UITableView (0.5.0)
+  - JSCategory/UIKit/UITextField (0.5.0)
+  - JSCategory/UIKit/UITextView (0.5.0)
+  - JSCategory/UIKit/UIView (0.5.0)
+  - JSCategory/UIKit/UIWindow (0.5.0)
 
 DEPENDENCIES:
-  - JSCategory/UIKit/UIScreen (from `../`)
+  - JSCategory (from `../`)
 
 EXTERNAL SOURCES:
   JSCategory:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JSCategory: 72c500fc70ac5494e144f9766ea3f682f94a3fff
+  JSCategory: 4e3fa35e51dc7d21bc7301ded773f1db5cb2827a
 
-PODFILE CHECKSUM: 94f93aa52b95512dfd0f8f0c82431c7a60456daa
+PODFILE CHECKSUM: f2a7f84fab6b0827a5de29e32fd4fe1ce75fe1b5
 
 COCOAPODS: 1.5.3
