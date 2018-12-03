@@ -1,0 +1,22 @@
+{
+  "name": "JSCategory",
+  "version": "0.1.0",
+  "summary": "JSCategory",
+  "description": "开发过程中常用的类扩展",
+  "homepage": "https://github.com/lmg4819/JSCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lmg4819": "luomengge@cheyipai.com"
+  },
+  "source": {
+    "git": "https://github.com/lmg4819/JSCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "JSCategory/Classes/JSCategory/**/*.{h,m}"
+}

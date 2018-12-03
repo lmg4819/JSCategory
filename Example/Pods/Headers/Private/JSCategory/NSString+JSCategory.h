@@ -1,0 +1,1 @@
+../../../../../JSCategory/Classes/JSCategory/Foundation/NSString/NSString+JSCategory.h
