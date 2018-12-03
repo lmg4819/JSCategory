@@ -90,7 +90,7 @@
 /* Begin PBXFileReference section */
 		00A29D7ACE86352F1A037FE2BD03B5FB /* UITableView+JSCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+JSCategory.m"; path = "JSCategory/UIKit/UITableView/UITableView+JSCategory.m"; sourceTree = "<group>"; };
 		030090F644E0BC65FBA19BBB454D12B0 /* NSData+JSCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+JSCategory.h"; path = "JSCategory/Foundation/NSData/NSData+JSCategory.h"; sourceTree = "<group>"; };
-		0877AFA6E0F8C1DBC8833434F1E1AB72 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0877AFA6E0F8C1DBC8833434F1E1AB72 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0AF450F882ABE7BA1B4665AC9F81D9CE /* Pods-JSCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		0AF5B2F9C1991AA45F6285182EDB24C0 /* Pods-JSCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0B0CD965CE7F58AB2D2B6C814470DCFB /* UITextView+JSCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+JSCategory.h"; path = "JSCategory/UIKit/UITextView/UITextView+JSCategory.h"; sourceTree = "<group>"; };
@@ -131,8 +131,9 @@
 		838A2112AF732986C866EBD3A1CD4265 /* UIWindow+JSCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+JSCategory.m"; path = "JSCategory/UIKit/UIWindow/UIWindow+JSCategory.m"; sourceTree = "<group>"; };
 		86AD037EBA4D54DEC568FB5D0D6E6856 /* JSCategory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSCategory-dummy.m"; sourceTree = "<group>"; };
 		8CCB93D88B927DD927128855A6243D3F /* NSString+JSCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+JSCategory.m"; path = "JSCategory/Foundation/NSString/NSString+JSCategory.m"; sourceTree = "<group>"; };
+		9206675821B4F81A007EC062 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9325EF3A6C3CCC05AEB8D8DCDA577DB7 /* UIScreen+JSCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScreen+JSCategory.m"; path = "JSCategory/UIKit/UIScreen/UIScreen+JSCategory.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94A77DBAB05DCDFCF837934C00016825 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		94BDEF1DDA3C171FB905DC9490DCB5E3 /* UILabel+JSCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+JSCategory.m"; path = "JSCategory/UIKit/UILabel/UILabel+JSCategory.m"; sourceTree = "<group>"; };
 		95A1640786B132D0BCD7F39B6FCD94C6 /* UIWindow+JSCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+JSCategory.h"; path = "JSCategory/UIKit/UIWindow/UIWindow+JSCategory.h"; sourceTree = "<group>"; };
@@ -153,22 +154,22 @@
 		BE05232884DD9B708B2219313576851E /* UIDevice+JSCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+JSCategory.m"; path = "JSCategory/UIKit/UIDevice/UIDevice+JSCategory.m"; sourceTree = "<group>"; };
 		BF4AEA127364186B4E217812A41DC8EE /* UILabel+JSCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+JSCategory.h"; path = "JSCategory/UIKit/UILabel/UILabel+JSCategory.h"; sourceTree = "<group>"; };
 		BFE4EF81A513B9BE004D57CE8C5F5F43 /* UIView+JSCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+JSCategory.m"; path = "JSCategory/UIKit/UIView/UIView+JSCategory.m"; sourceTree = "<group>"; };
-		C026BBFE97760ABB8E7B014B7717DF83 /* libPods-JSCategory_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JSCategory_Tests.a"; path = "libPods-JSCategory_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C37CB6D30ED8FFF355F4909A717D248A /* libPods-JSCategory_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-JSCategory_Example.a"; path = "libPods-JSCategory_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C026BBFE97760ABB8E7B014B7717DF83 /* libPods-JSCategory_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSCategory_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C37CB6D30ED8FFF355F4909A717D248A /* libPods-JSCategory_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSCategory_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C436296E2360D22F031134E5A29951B2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		C5061C5EB4A76428F7493FA6A1D5CB74 /* NSDictionary+JSCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+JSCategory.h"; path = "JSCategory/Foundation/NSDictionary/NSDictionary+JSCategory.h"; sourceTree = "<group>"; };
-		C7D0247FCD54955685E52C3075C4F0E4 /* libJSCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJSCategory.a; path = libJSCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7D0247FCD54955685E52C3075C4F0E4 /* libJSCategory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJSCategory.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA89C8DD87ECA1066B08504269FBF222 /* NSKeyedArchiver+JSCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSKeyedArchiver+JSCategory.m"; path = "JSCategory/Foundation/NSKeyedUnrchiver/NSKeyedArchiver+JSCategory.m"; sourceTree = "<group>"; };
 		CB27923A4915FA1A099D49DCAF89D0DD /* NSString+JSCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+JSCategory.h"; path = "JSCategory/Foundation/NSString/NSString+JSCategory.h"; sourceTree = "<group>"; };
 		D33FC0E76A37548779C1EAD082D883F6 /* Pods-JSCategory_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSCategory_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D8C31EDBD78486E5C47DBA054EA8BFC3 /* Quartz_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Quartz_JS.h; path = JSCategory/Quartz/Quartz_JS.h; sourceTree = "<group>"; };
 		DA903FB4B216D88A91B5B6917C3C458B /* UIView+JSCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+JSCategory.h"; path = "JSCategory/UIKit/UIView/UIView+JSCategory.h"; sourceTree = "<group>"; };
 		DB701EE03FE3FBC1C2A27674D413E21C /* Pods-JSCategory_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSCategory_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DD270A217D2074D1CEB3B4835967DB4C /* JSCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JSCategory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DD270A217D2074D1CEB3B4835967DB4C /* JSCategory.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = JSCategory.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E04FF717D69E25578F81E93608B81CDF /* UITextField+JSCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+JSCategory.m"; path = "JSCategory/UIKit/UITextField/UITextField+JSCategory.m"; sourceTree = "<group>"; };
 		E16D398544FBF205B3233D8CEB7B483A /* JSCategory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSCategory-prefix.pch"; sourceTree = "<group>"; };
 		F1829E02615A89F82F9E710690575122 /* Foundation_JS.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Foundation_JS.h; path = JSCategory/Foundation/Foundation_JS.h; sourceTree = "<group>"; };
-		F455BBD430E3BAE45A6D83CFC3D37E44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F455BBD430E3BAE45A6D83CFC3D37E44 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FBB697CEEF3DED893FA7DA8FC61301D2 /* NSNumber+JSCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+JSCategory.m"; path = "JSCategory/Foundation/NSNumber/NSNumber+JSCategory.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -339,6 +340,7 @@
 		4ACC2FF924F9CEDBCB3049314844EBED /* JSCategory */ = {
 			isa = PBXGroup;
 			children = (
+				9206675821B4F81A007EC062 /* Info.plist */,
 				238AAF5CDA0E31D9C5D3052AB4550AD0 /* JSCategorys.h */,
 				1F347868BEFCAB11A607206A90DC69A0 /* Foundation */,
 				31CA9594106D252A811B57ABD2E4FEC9 /* Pod */,
