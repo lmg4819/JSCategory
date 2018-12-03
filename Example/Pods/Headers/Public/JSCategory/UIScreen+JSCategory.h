@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/UIKit/UIScreent/UIScreen+JSCategory.h
+../../../../../JSCategory/UIKit/UIScreen/UIScreen+JSCategory.h

@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/UIKit/UIDevice/UIDevice+JSCategory.h
+../../../../../JSCategory/UIKit/UIDevice/UIDevice+JSCategory.h

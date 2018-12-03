@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/Foundation/NSThread/NSThread+JSCategory.h
+../../../../../JSCategory/Foundation/NSThread/NSThread+JSCategory.h

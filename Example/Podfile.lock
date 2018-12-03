@@ -1,5 +1,59 @@
 PODS:
-  - JSCategory (0.1.0)
+  - JSCategory (0.1.0):
+    - JSCategory/Foundation (= 0.1.0)
+    - JSCategory/QuartzCore (= 0.1.0)
+    - JSCategory/UIKit (= 0.1.0)
+  - JSCategory/Foundation (0.1.0):
+    - JSCategory/Foundation/NSArray (= 0.1.0)
+    - JSCategory/Foundation/NSData (= 0.1.0)
+    - JSCategory/Foundation/NSDictionary (= 0.1.0)
+    - JSCategory/Foundation/NSFileManager (= 0.1.0)
+    - JSCategory/Foundation/NSKeyedUnrchiver (= 0.1.0)
+    - JSCategory/Foundation/NSNumber (= 0.1.0)
+    - JSCategory/Foundation/NSObject (= 0.1.0)
+    - JSCategory/Foundation/NSString (= 0.1.0)
+    - JSCategory/Foundation/NSThread (= 0.1.0)
+    - JSCategory/Foundation/NSTimer (= 0.1.0)
+  - JSCategory/Foundation/NSArray (0.1.0)
+  - JSCategory/Foundation/NSData (0.1.0)
+  - JSCategory/Foundation/NSDictionary (0.1.0)
+  - JSCategory/Foundation/NSFileManager (0.1.0)
+  - JSCategory/Foundation/NSKeyedUnrchiver (0.1.0)
+  - JSCategory/Foundation/NSNumber (0.1.0)
+  - JSCategory/Foundation/NSObject (0.1.0)
+  - JSCategory/Foundation/NSString (0.1.0)
+  - JSCategory/Foundation/NSThread (0.1.0)
+  - JSCategory/Foundation/NSTimer (0.1.0)
+  - JSCategory/QuartzCore (0.1.0):
+    - JSCategory/QuartzCore/CALayer (= 0.1.0)
+  - JSCategory/QuartzCore/CALayer (0.1.0)
+  - JSCategory/UIKit (0.1.0):
+    - JSCategory/UIKit/UIApplication (= 0.1.0)
+    - JSCategory/UIKit/UIBarButtonItem (= 0.1.0)
+    - JSCategory/UIKit/UIColor (= 0.1.0)
+    - JSCategory/UIKit/UIDevice (= 0.1.0)
+    - JSCategory/UIKit/UIImage (= 0.1.0)
+    - JSCategory/UIKit/UILabel (= 0.1.0)
+    - JSCategory/UIKit/UIScreen (= 0.1.0)
+    - JSCategory/UIKit/UIScrollView (= 0.1.0)
+    - JSCategory/UIKit/UITableView (= 0.1.0)
+    - JSCategory/UIKit/UITextField (= 0.1.0)
+    - JSCategory/UIKit/UITextView (= 0.1.0)
+    - JSCategory/UIKit/UIView (= 0.1.0)
+    - JSCategory/UIKit/UIWindow (= 0.1.0)
+  - JSCategory/UIKit/UIApplication (0.1.0)
+  - JSCategory/UIKit/UIBarButtonItem (0.1.0)
+  - JSCategory/UIKit/UIColor (0.1.0)
+  - JSCategory/UIKit/UIDevice (0.1.0)
+  - JSCategory/UIKit/UIImage (0.1.0)
+  - JSCategory/UIKit/UILabel (0.1.0)
+  - JSCategory/UIKit/UIScreen (0.1.0)
+  - JSCategory/UIKit/UIScrollView (0.1.0)
+  - JSCategory/UIKit/UITableView (0.1.0)
+  - JSCategory/UIKit/UITextField (0.1.0)
+  - JSCategory/UIKit/UITextView (0.1.0)
+  - JSCategory/UIKit/UIView (0.1.0)
+  - JSCategory/UIKit/UIWindow (0.1.0)
 
 DEPENDENCIES:
   - JSCategory (from `../`)
@@ -9,7 +63,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JSCategory: d3552e6b8d8d4708250e86f5eb85a5c88f44df67
+  JSCategory: 6ab0fa1bd75e8dc5402e9e77216d987425219bca
 
 PODFILE CHECKSUM: f2a7f84fab6b0827a5de29e32fd4fe1ce75fe1b5
 

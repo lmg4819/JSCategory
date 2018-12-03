@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/Foundation/NSObject/NSObject+JSKVO.h
+../../../../../JSCategory/Foundation/NSObject/NSObject+JSKVO.h

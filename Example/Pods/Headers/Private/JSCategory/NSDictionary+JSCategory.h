@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/Foundation/NSDictionary/NSDictionary+JSCategory.h
+../../../../../JSCategory/Foundation/NSDictionary/NSDictionary+JSCategory.h

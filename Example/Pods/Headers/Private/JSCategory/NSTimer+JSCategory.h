@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/Foundation/NSTimer/NSTimer+JSCategory.h
+../../../../../JSCategory/Foundation/NSTimer/NSTimer+JSCategory.h

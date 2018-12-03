@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/JSCategorys.h
+../../../../../JSCategory/JSCategorys.h

@@ -15,8 +15,138 @@
     "git": "https://github.com/lmg4819/JSCategory.git",
     "tag": "0.1.0"
   },
+  "requires_arc": true,
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "JSCategory/Classes/JSCategory/**/*.{h,m}"
+  "source_files": "JSCategory/JSCategorys.h",
+  "public_header_files": "JSCategory/JSCategorys.h",
+  "subspecs": [
+    {
+      "name": "Foundation",
+      "public_header_files": "JSCategory/Foundation/Foundation_JS.h",
+      "source_files": "JSCategory/Foundation/Foundation_JS.h",
+      "frameworks": [
+        "Foundation",
+        "Security"
+      ],
+      "subspecs": [
+        {
+          "name": "NSArray",
+          "source_files": "JSCategory/Foundation/NSArray/*.{h,m}"
+        },
+        {
+          "name": "NSData",
+          "source_files": "JSCategory/Foundation/NSData/*.{h,m}"
+        },
+        {
+          "name": "NSObject",
+          "source_files": "JSCategory/Foundation/NSObject/*.{h,m}"
+        },
+        {
+          "name": "NSTimer",
+          "source_files": "JSCategory/Foundation/NSTimer/*.{h,m}"
+        },
+        {
+          "name": "NSNumber",
+          "source_files": "JSCategory/Foundation/NSNumber/*.{h,m}"
+        },
+        {
+          "name": "NSThread",
+          "source_files": "JSCategory/Foundation/NSThread/*.{h,m}"
+        },
+        {
+          "name": "NSString",
+          "source_files": "JSCategory/Foundation/NSString/*.{h,m}"
+        },
+        {
+          "name": "NSFileManager",
+          "source_files": "JSCategory/Foundation/NSFileManager/*.{h,m}"
+        },
+        {
+          "name": "NSKeyedUnrchiver",
+          "source_files": "JSCategory/Foundation/NSKeyedUnrchiver/*.{h,m}"
+        },
+        {
+          "name": "NSDictionary",
+          "source_files": "JSCategory/Foundation/NSDictionary/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "UIKit",
+      "public_header_files": "JSCategory/UIKit/UIKit_JS.h",
+      "source_files": "JSCategory/UIKit/UIKit_JS.h",
+      "frameworks": "UIKit",
+      "subspecs": [
+        {
+          "name": "UIImage",
+          "source_files": "JSCategory/UIKit/UIImage/*.{h,m}"
+        },
+        {
+          "name": "UILabel",
+          "source_files": "JSCategory/UIKit/UILabel/*.{h,m}"
+        },
+        {
+          "name": "UIScrollView",
+          "source_files": "JSCategory/UIKit/UIScrollView/*.{h,m}"
+        },
+        {
+          "name": "UIWindow",
+          "source_files": "JSCategory/UIKit/UIWindow/*.{h,m}"
+        },
+        {
+          "name": "UIApplication",
+          "source_files": "JSCategory/UIKit/UIApplication/*.{h,m}"
+        },
+        {
+          "name": "UIColor",
+          "source_files": "JSCategory/UIKit/UIColor/*.{h,m}"
+        },
+        {
+          "name": "UIView",
+          "source_files": "JSCategory/UIKit/UIView/*.{h,m}"
+        },
+        {
+          "name": "UITextView",
+          "source_files": "JSCategory/UIKit/UITextView/*.{h,m}"
+        },
+        {
+          "name": "UIDevice",
+          "source_files": "JSCategory/UIKit/UIDevice/*.{h,m}"
+        },
+        {
+          "name": "UIBarButtonItem",
+          "source_files": "JSCategory/UIKit/UIBarButtonItem/*.{h,m}"
+        },
+        {
+          "name": "UITableView",
+          "source_files": "JSCategory/UIKit/UITableView/*.{h,m}"
+        },
+        {
+          "name": "UITextField",
+          "source_files": "JSCategory/UIKit/UITextField/*.{h,m}"
+        },
+        {
+          "name": "UIScreen",
+          "source_files": "JSCategory/UIKit/UIScreen/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "QuartzCore",
+      "public_header_files": "JSCategory/Quartz/Quartz_JS.h",
+      "source_files": "JSCategory/Quartz/Quartz_JS.h",
+      "frameworks": [
+        "QuartzCore",
+        "UIKit"
+      ],
+      "subspecs": [
+        {
+          "name": "CALayer",
+          "source_files": "JSCategory/Quartz/CALayer/*.{h,m}"
+        }
+      ]
+    }
+  ]
 }

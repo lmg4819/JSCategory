@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/Foundation/NSKeyedAUnrchiver/NSKeyedArchiver+JSCategory.h
+../../../../../JSCategory/Foundation/NSKeyedUnrchiver/NSKeyedArchiver+JSCategory.h

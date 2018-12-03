@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/UIKit/UIBarButtonItem/UIBarButtonItem+JSCategory.h
+../../../../../JSCategory/UIKit/UIBarButtonItem/UIBarButtonItem+JSCategory.h

@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/Foundation/NSArray/NSArray+JSCategory.h
+../../../../../JSCategory/Foundation/NSArray/NSArray+JSCategory.h

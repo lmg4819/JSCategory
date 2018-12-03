@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/Foundation/Foundation_JS.h
+../../../../../JSCategory/Foundation/Foundation_JS.h

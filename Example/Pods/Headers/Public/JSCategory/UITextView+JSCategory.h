@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/UIKit/UITextView/UITextView+JSCategory.h
+../../../../../JSCategory/UIKit/UITextView/UITextView+JSCategory.h

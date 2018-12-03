@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/UIKit/UIWindow/UIWindow+JSCategory.h
+../../../../../JSCategory/UIKit/UIWindow/UIWindow+JSCategory.h

@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/Quartz/Quartz_JS.h
+../../../../../JSCategory/Quartz/Quartz_JS.h

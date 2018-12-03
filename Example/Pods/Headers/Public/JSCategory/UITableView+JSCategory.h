@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/UIKit/UITableView/UITableView+JSCategory.h
+../../../../../JSCategory/UIKit/UITableView/UITableView+JSCategory.h

@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/UIKit/UIKit_JS.h
+../../../../../JSCategory/UIKit/UIKit_JS.h

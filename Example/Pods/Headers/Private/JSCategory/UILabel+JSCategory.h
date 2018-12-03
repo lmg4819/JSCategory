@@ -1,1 +1,1 @@
-../../../../../JSCategory/Classes/JSCategory/UIKit/UILabel+JSCategory.h
+../../../../../JSCategory/UIKit/UILabel/UILabel+JSCategory.h
