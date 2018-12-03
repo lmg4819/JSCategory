@@ -7,7 +7,6 @@
 //
 
 #import "UIColor+JSCategory.h"
-#import "NSString+JSCategory.h"
 
 @implementation UIColor (JSCategory)
 
@@ -19,7 +18,8 @@ static inline NSUInteger JShexStrToInt(NSString *str) {
 
 static BOOL JShexStrToRGBA(NSString *str,
                          CGFloat *r, CGFloat *g, CGFloat *b, CGFloat *a) {
-    str = [[str js_stringByTrim] uppercaseString];
+    NSCharacterSet *set = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+    str = [[str stringByTrimmingCharactersInSet:set] uppercaseString];
     if ([str hasPrefix:@"#"]) {
         str = [str substringFromIndex:1];
     } else if ([str hasPrefix:@"0X"]) {

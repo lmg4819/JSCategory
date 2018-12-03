@@ -7,7 +7,8 @@
 //
 
 #import "JSViewController.h"
-#import <JSCategory/UIView+JSCategory.h>
+//#import <JSCategory/UIView+JSCategory.h>
+
 
 @interface JSViewController ()
 
@@ -20,9 +21,9 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    UIView *bgView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.js_width, self.view.js_height)];
-    bgView.backgroundColor = [UIColor redColor];
-    [self.view addSubview:bgView];
+//    UIView *bgView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, self.view.js_width, self.view.js_height)];
+//    bgView.backgroundColor = [UIColor redColor];
+//    [self.view addSubview:bgView];
     
 }
 

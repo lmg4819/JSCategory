@@ -1,6 +1,6 @@
 {
   "name": "JSCategory",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "JSCategory",
   "description": "开发过程中常用的类扩展",
   "homepage": "https://github.com/lmg4819/JSCategory",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/lmg4819/JSCategory.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "requires_arc": true,
   "platforms": {
@@ -57,7 +57,15 @@
         },
         {
           "name": "NSString",
-          "source_files": "JSCategory/Foundation/NSString/*.{h,m}"
+          "source_files": "JSCategory/Foundation/NSString/*.{h,m}",
+          "dependencies": {
+            "JSCategory/Foundation/NSNumber": [
+
+            ],
+            "JSCategory/Foundation/NSData": [
+
+            ]
+          }
         },
         {
           "name": "NSFileManager",
@@ -129,14 +137,19 @@
         },
         {
           "name": "UIScreen",
-          "source_files": "JSCategory/UIKit/UIScreen/*.{h,m}"
+          "source_files": "JSCategory/UIKit/UIScreen/*.{h,m}",
+          "dependencies": {
+            "JSCategory/UIKit/UIDevice": [
+
+            ]
+          }
         }
       ]
     },
     {
       "name": "QuartzCore",
-      "public_header_files": "JSCategory/Quartz/Quartz_JS.h",
-      "source_files": "JSCategory/Quartz/Quartz_JS.h",
+      "public_header_files": "JSCategory/QuartzCore/Quartz_JS.h",
+      "source_files": "JSCategory/QuartzCore/Quartz_JS.h",
       "frameworks": [
         "QuartzCore",
         "UIKit"
@@ -144,7 +157,7 @@
       "subspecs": [
         {
           "name": "CALayer",
-          "source_files": "JSCategory/Quartz/CALayer/*.{h,m}"
+          "source_files": "JSCategory/QuartzCore/CALayer/*.{h,m}"
         }
       ]
     }

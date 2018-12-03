@@ -7,7 +7,6 @@
 //
 
 #import "UIDevice+JSCategory.h"
-#import "NSString+JSCategory.h"
 #include <sys/socket.h>
 #include <sys/sysctl.h>
 #include <net/if.h>
@@ -66,13 +65,20 @@
         return YES;
     }
     
-    NSString *path = [NSString stringWithFormat:@"/private/%@", [NSString js_stringWithUUID]];
+    NSString *path = [NSString stringWithFormat:@"/private/%@", [self js_UUIDString]];
     if ([@"test" writeToFile : path atomically : YES encoding : NSUTF8StringEncoding error : NULL]) {
         [[NSFileManager defaultManager] removeItemAtPath:path error:nil];
         return YES;
     }
     
     return NO;
+}
+
+- (NSString *)js_UUIDString {
+    CFUUIDRef uuid = CFUUIDCreate(NULL);
+    CFStringRef string = CFUUIDCreateString(NULL, uuid);
+    CFRelease(uuid);
+    return (__bridge_transfer NSString *)string;
 }
 
 #ifdef __IPHONE_OS_VERSION_MIN_REQUIRED

@@ -7,12 +7,13 @@
 //
 
 #import "NSNumber+JSCategory.h"
-#import "NSString+JSCategory.h"
 
 @implementation NSNumber (JSCategory)
 
 + (NSNumber *)js_numberWithString:(NSString *)string {
-    NSString *str = [[string js_stringByTrim] lowercaseString];
+    
+    NSCharacterSet *set = [NSCharacterSet whitespaceAndNewlineCharacterSet];
+    NSString *str = [[string stringByTrimmingCharactersInSet:set] lowercaseString];
     if (!str || !str.length) {
         return nil;
     }

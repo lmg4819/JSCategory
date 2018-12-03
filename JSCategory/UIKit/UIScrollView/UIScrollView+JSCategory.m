@@ -22,7 +22,7 @@
     [self js_scrollToLeftAnimated:YES];
 }
 
-- (void)scrollToRight {
+- (void)js_scrollToRight {
     [self js_scrollToRightAnimated:YES];
 }
 
